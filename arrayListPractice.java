@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 public class arrayListPractice{
 
-	public static int combine(ArrayList<Integer> list1, ArrayList<Integer> list2){
-		for(int i = 0; i <= list2.size; i++)
-		list.add(list2.get(i));
-		return list;
+	public static ArrayList<Integer> combine(ArrayList<Integer> list1, ArrayList<Integer> list2){
+		for(int i = 0; i < 3; i++)
+		list1.add(list2.get(i));
+		return list1;
 		}
 
 	public static void main(String[]args){
@@ -19,7 +19,7 @@ public class arrayListPractice{
 	list2.add(6);
 	System.out.println(list2);
 
-	combine(list,list2);
+	System.out.println(combine(list,list2));
 
 	//System.out.println("Helloe world..");
 	}
