@@ -1,7 +1,11 @@
 import java.util.ArrayList;
 public class arrayListPractice{
 
-//	public static void combine(ArrayList<Integer> list2)
+	public static int combine(ArrayList<Integer> list1, ArrayList<Integer> list2){
+		for(int i = 0; i <= list2.size; i++)
+		list.add(list2.get(i));
+		return list;
+		}
 
 	public static void main(String[]args){
 	ArrayList<Integer> list = new ArrayList<Integer>();
@@ -14,6 +18,8 @@ public class arrayListPractice{
 	list2.add(5);
 	list2.add(6);
 	System.out.println(list2);
+
+	combine(list,list2);
 
 	//System.out.println("Helloe world..");
 	}
